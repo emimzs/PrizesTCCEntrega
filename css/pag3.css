@@ -39,6 +39,37 @@ a:hover{
 }
 
 
+.menu2
+{
+
+display: none;
+position: absolute;
+left: 60%;
+width: 40%;
+padding: 1rem;
+background-color: #414022;
+z-index: 10;
+}
+
+.menu2 > ul
+{
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.menu2 > ul > li > a
+{
+
+  color: rgb(255, 255, 255);
+
+}
+
 .nav-list {
   list-style: none;
   display: flex;

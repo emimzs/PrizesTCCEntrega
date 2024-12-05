@@ -320,7 +320,7 @@ main{
 
 
 .containerCard3{
-  
+    width: 50%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -419,7 +419,16 @@ section.module.parallax h1{
         font-size: 78px;
         z-index: 50;
         text-transform: uppercase;
+        
 }
+
+@media screen and (max-width: 768px){
+    section.module.parallax h1{
+        font-size: 40px;
+    }
+}    
+
+section.module.parallax h1
 
 .area-1{
     visibility: hidden;
