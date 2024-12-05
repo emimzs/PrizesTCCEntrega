@@ -316,6 +316,16 @@ main{
         padding: 0 15px;
         font-size: small; 
     }
+
+    .containerCard3{
+        width: 100%!important;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
 }
 
 
