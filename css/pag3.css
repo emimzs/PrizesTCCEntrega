@@ -38,11 +38,12 @@ a:hover{
   
 }
 
-.nav-list{
+
+.nav-list {
   list-style: none;
   display: flex;
-
 }
+
 
 .nav-list > li{
   letter-spacing: 3px;
@@ -50,68 +51,40 @@ a:hover{
   
 }
 
-.menu2
-{
-
-display: none;
-position: absolute;
-left: 60%;
-width: 40%;
-padding: 1rem;
-background-color: white;
-
+/* O menu mobile começa oculto */
+.nav-list-mobile {
+  display: none;
+  list-style: none;
+  padding: 0;
 }
 
-.menu2 > ul
-{
-
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+/* Quando a classe active é adicionada, o menu é mostrado */
+.nav-list-mobile.active {
+  display: block;
 }
 
-
-.menu2 > ul > li > a
-{
-
-  color: rgb(255, 255, 255);
-
-}
-
-.mobile-menu{
+/* Menu hambúrguer - inicialmente escondido em telas grandes */
+.mobile-menu {
   display: none;
   cursor: pointer;
 }
 
-.mobile-menu > div{
-  width: 32px;
-  height: 2px;
+.mobile-menu > div {
+  width: 30px;
+  height: 3px;
   background: #fff;
-  margin: 8px;
+  margin: 5px;
 }
 
-@media (max-width: 759px)
-{
+/* Estilos para o menu hambúrguer */
+@media (max-width: 759px) {
+  .nav-list {
+    display: none; /* Esconde o menu de navegação normal */
+  }
 
-
-.nav-list{
-
-  display: none;
-
-}
-
-
-.mobile-menu{
-  display: block;
-}
-
-}
-
-.nav-list:active {
-  transform: translateX(0) ;
+  .mobile-menu {
+    display: block; /* Mostra o botão de menu hambúrguer */
+  }
 }
 
 

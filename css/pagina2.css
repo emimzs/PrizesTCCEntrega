@@ -1,7 +1,7 @@
 body{
     line-height: 1.5;
     background-color: #ffffff;
-    background-image: url(C:\Users\Priscila\Documents\estudos\html\tcc\image\Fundo.png); 
+    background-image: url(C:\Users\Priscila\Documents\estudos\html\tcc\image\galhos.png); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -288,7 +288,8 @@ button {
 .frase{
     color: black;
     opacity: 100%;
-    width: 50%;
+    
+    
  }
 
 .wrapper{
@@ -403,7 +404,7 @@ section.module.parallax:after{
 
 
 section.module.parallax-1{
-    background: url('../image/paralaxxx.png');
+    background: url(https://img.freepik.com/fotos-gratis/feche-a-vista-de-pequenos-ramos_23-2147676854.jpg?t=st=1731592280~exp=1731595880~hmac=ea0f92973528235df268ed4aee58d263572599817bcb8da871f65ce4080b4317&w=1060); 
     overflow: hidden;
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -414,10 +415,10 @@ section.module.parallax-1{
 
 
 section.module.parallax h1{
-    color: #ffffffe1;
-    font-size: 78px;
-    z-index: 50;
-    text-transform: uppercase;
+        color: #ffbb54fe;
+        font-size: 78px;
+        z-index: 50;
+        text-transform: uppercase;
 }
 
 .area-1{
